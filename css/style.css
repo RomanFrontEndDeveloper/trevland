@@ -60,6 +60,11 @@ img {
 	line-height: 29px;
 	color: #fff;
 }
+
+.overlay {
+	overflow-y: hidden;
+}
+
 .header {
 	background: rgba(0, 0, 0, 0.3) url(../images/header-bg.jpg) no-repeat center;
 	background-size: cover;
@@ -94,7 +99,8 @@ img {
 	letter-spacing: 0.06em;
 }
 
-.header-btn {
+.header-btn,
+.mobile_btn {
 	display: block;
 	width: 163px;
 	padding: 14px 0 13px 0;
@@ -106,8 +112,64 @@ img {
 	-o-transition: all 0.3s ease;
 }
 
+.mobile_btn {
+	display: none;
+}
+
 .header-btn:hover {
 	opacity: 0.8;
+}
+
+.mibile-menu {
+	display: none;
+	position: relative;
+	width: 60px;
+	z-index: 4;
+	height: 40px;
+	cursor: pointer;
+}
+
+.mibile-menu span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background: #c9453b;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.mibile-menu span:last-child {
+	bottom: 0;
+}
+
+.mibile-menu span:first-child.active,
+.mibile-menu span:last-child.active {
+	opacity: 0;
+}
+
+.mibile-menu span:nth-child(2),
+.mibile-menu span:nth-child(3) {
+	top: 50%;
+}
+
+.mibile-menu span:nth-child(2).active {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+.mibile-menu span:nth-child(3).active {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
 }
 
 .header-bottom {

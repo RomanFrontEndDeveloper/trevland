@@ -10,4 +10,9 @@ $(document).ready(function () {
 		nextArrow:
 			'<button type="button" class="btn-slick-next btn btn-slider"><img src="images/next.svg" alt="" /></button>',
 	});
+	$('.mibile-menu').click(function () {
+		$('.mibile-menu span').toggleClass('active');
+		$('.menu').toggleClass('active');
+		$('body').toggleClass('overlay');
+	});
 });
