@@ -492,6 +492,8 @@ img {
 .footer__wrapper {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	row-gap: 30px;
 }
 
 .footer_logo {
@@ -518,6 +520,7 @@ img {
 
 .footer__social {
 	display: flex;
+	justify-content: space-around;
 }
 
 .footer__social li:not(:first-child) {
