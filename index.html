@@ -9,6 +9,7 @@
 		/>
 
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/aos.css" />
 		<link rel="stylesheet" href="css/slick.css" />
 		<link rel="stylesheet" href="css/media.css" />
 		<title>Travel</title>
@@ -16,49 +17,60 @@
 	<body>
 		<header class="header">
 			<div class="container">
-				<div class="header-top">
-					<a href="#" class="header-logo">Trevland</a>
-					<nav class="nav">
-						<ul class="menu">
-							<li class="menu-list">
-								<a href="" class="menu-link">Home</a>
-							</li>
-							<li class="menu-list">
-								<a href="" class="menu-link">Location</a>
-							</li>
-							<li class="menu-list">
-								<a href="" class="menu-link">Blog</a>
-							</li>
-							<li class="menu-list">
-								<a href="" class="menu-link">About</a>
-							</li>
-							<li class="menu-list">
-								<a href="" class="menu-link">Contact</a>
-							</li>
-							<li class="menu-list">
-								<button class="btn bg-orang mobile_btn">
-									Booking now
-								</button>
-							</li>
-						</ul>
-					</nav>
-					<button class="btn header-btn bg-orang desctop_btn">
-						Booking now
-					</button>
-					<div class="mibile-menu">
-						<span></span><span></span><span></span><span></span>
+				<div class="header__container">
+					<div class="header-top">
+						<a href="#" class="header-logo">Trevland</a>
+						<nav class="nav">
+							<ul class="menu">
+								<li class="menu-list">
+									<a href="" class="menu-link">Home</a>
+								</li>
+								<li class="menu-list">
+									<a href="" class="menu-link">Location</a>
+								</li>
+								<li class="menu-list">
+									<a href="" class="menu-link">Blog</a>
+								</li>
+								<li class="menu-list">
+									<a href="" class="menu-link">About</a>
+								</li>
+								<li class="menu-list">
+									<a href="" class="menu-link">Contact</a>
+								</li>
+								<li class="menu-list">
+									<button class="btn bg-orang mobile_btn">
+										Booking now
+									</button>
+								</li>
+							</ul>
+						</nav>
+						<button class="btn header-btn bg-orang desctop_btn">
+							Booking now
+						</button>
+						<div class="mibile-menu">
+							<span></span><span></span><span></span><span></span>
+						</div>
 					</div>
 				</div>
+
 				<div class="header-bottom">
-					<h1 class="header-bottom-title">
+					<h1 class="header-bottom-title" data-aos="fade-up">
 						Railtrips To Here, There And Everywhere!
 					</h1>
-					<p class="header-bottom-text">
+					<p
+						class="header-bottom-text"
+						data-aos="fade-right"
+						data-aos-delay="600"
+					>
 						We all wish to start our year the best way possible and
 						also according to a common belief if you have a great
 						start to your.
 					</p>
-					<a href="#" class="header-bottom-link bg-orang"
+					<a
+						href="#"
+						class="header-bottom-link bg-orang"
+						data-aos="fade-right"
+						data-aos-delay="600"
 						>Explore more</a
 					>
 				</div>
@@ -69,15 +81,20 @@
 			<!-- section location-->
 			<section class="location">
 				<div class="container">
-					<h2 class="inner-title ff-gelassio">Popular Location</h2>
-					<p class="inner-subtitle location-subtitle">
+					<h2 class="inner-title ff-gelassio" data-aos="zoom-in">
+						Popular Location
+					</h2>
+					<p
+						class="inner-subtitle location-subtitle"
+						data-aos="zoom-in-up"
+					>
 						For every one of us, travel came first. We’ve spent
 						years living as nomads, pioneers, and voyagers— from
 						island hopping in the
 					</p>
 				</div>
 				<div class="location-wrapper">
-					<div class="location-block">
+					<div class="location-block" data-aos="flip-down">
 						<div class="location-block-img">
 							<img src="images/img_loc1.jpg" alt="" />
 						</div>
@@ -90,7 +107,7 @@
 						</p>
 					</div>
 
-					<div class="location-block">
+					<div class="location-block" data-aos="flip-left">
 						<div class="location-block-img">
 							<img src="images/img_loc2.jpg" alt="" />
 						</div>
@@ -102,7 +119,7 @@
 						</p>
 					</div>
 
-					<div class="location-block">
+					<div class="location-block" data-aos="flip-right">
 						<div class="location-block-img">
 							<img src="images/img_loc3.jpg" alt="" />
 						</div>
@@ -120,8 +137,13 @@
 			<!-- section slider-->
 			<section class="slider">
 				<div class="container">
-					<h2 class="inner-title ff-gelassio">Special Offers</h2>
-					<p class="inner-subtitle slider-subtitle">
+					<h2 class="inner-title ff-gelassio" data-aos="zoom-in">
+						Special Offers
+					</h2>
+					<p
+						class="inner-subtitle slider-subtitle"
+						data-aos="zoom-in-up"
+					>
 						With the New Year comes a refreshing sense of
 						wanderlust, a longing in our souls to escape to warmer
 						climates,
@@ -225,14 +247,23 @@
 			<!-- section news-->
 			<section class="news">
 				<div class="container">
-					<h2 class="inner-title ff-gelassio">From Blog & News</h2>
-					<p class="inner-subtitle news-subtitle">
+					<h2 class="inner-title ff-gelassio" data-aos="zoom-in">
+						From Blog & News
+					</h2>
+					<p
+						class="inner-subtitle news-subtitle"
+						data-aos="zoom-in-up"
+					>
 						Welcome to Community Conversations, a new interview
 						series featuring Intrepid travellers, creatives and
 						activists in our community.
 					</p>
 					<div class="news__wrapper">
-						<div class="news__left">
+						<div
+							class="news__left"
+							data-aos="zoom-in"
+							data-aos-delay="500"
+						>
 							<img
 								src="images/news1.jpg"
 								class="news__left-img"
@@ -255,7 +286,11 @@
 						</div>
 
 						<div class="news__right">
-							<div class="news__right-wrapper">
+							<div
+								class="news__right-wrapper"
+								data-aos="zoom-in"
+								data-aos-delay="700"
+							>
 								<div class="news__right-img">
 									<img src="images/news2.jpg" alt="" />
 								</div>
@@ -273,7 +308,11 @@
 								</div>
 							</div>
 
-							<div class="news__right-wrapper">
+							<div
+								class="news__right-wrapper"
+								data-aos="zoom-in"
+								data-aos-delay="900"
+							>
 								<div class="news__right-img">
 									<img src="images/news3.jpg" alt="" />
 								</div>
@@ -291,7 +330,11 @@
 								</div>
 							</div>
 
-							<div class="news__right-wrapper">
+							<div
+								class="news__right-wrapper"
+								data-aos="zoom-in"
+								data-aos-delay="400"
+							>
 								<div class="news__right-img">
 									<img src="images/news4.jpg" alt="" />
 								</div>
@@ -319,7 +362,11 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__wrapper">
-					<div class="footer__block footer__contact">
+					<div
+						class="footer__block footer__contact"
+						data-aos="zoom-in"
+						data-aos-delay="400"
+					>
 						<p class="footer_logo">Trevland</p>
 						<p class="footer_title">Contact us</p>
 						<a href="" class="footer__linck"
@@ -348,7 +395,11 @@
 							</li>
 						</ul>
 					</div>
-					<div class="footer__block footer__menu">
+					<div
+						class="footer__block footer__menu"
+						data-aos="zoom-in"
+						data-aos-delay="500"
+					>
 						<ul class="footer__list">
 							<li><a href="">Services</a></li>
 							<li><a href="">About</a></li>
@@ -357,7 +408,11 @@
 							<li><a href="">Branding</a></li>
 						</ul>
 					</div>
-					<div class="footer__block footer__menu">
+					<div
+						class="footer__block footer__menu"
+						data-aos="zoom-in"
+						data-aos-delay="600"
+					>
 						<ul class="footer__list">
 							<li><a href="">Legal</a></li>
 							<li><a href="">Terms & Conditions</a></li>
@@ -365,7 +420,11 @@
 							<li><a href="">Privecy Policy</a></li>
 						</ul>
 					</div>
-					<div class="footer__block footer__subscribe">
+					<div
+						class="footer__block footer__subscribe"
+						data-aos="zoom-in"
+						data-aos-delay="900"
+					>
 						<p class="footer__subscribe-title">SUBSCRIBE NOW</p>
 						<form class="footer__form">
 							<input
@@ -387,6 +446,7 @@
 
 		<script src="js/jquery-3.7.1.slim.min.js"></script>
 		<script src="js/slick.min.js"></script>
+		<script src="js/aos.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

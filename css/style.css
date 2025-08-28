@@ -76,13 +76,37 @@ img {
 	margin: 0 auto;
 }
 
+.header__container {
+	height: 51px;
+}
+
 .header-top {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	color: #fff;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
 }
 
+.header-top.header-top__fixed {
+	position: fixed;
+	z-index: 4;
+
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 20px;
+	background: #235475;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-ms-transition: 0.2s;
+	-o-transition: 0.2s;
+}
 .menu {
 	display: flex;
 	justify-content: center;
