@@ -83,6 +83,7 @@
 @media (max-width: 768px) {
 	.location-subtitle {
 		width: 95%;
+		margin: 0 auto;
 	}
 
 	.location {
